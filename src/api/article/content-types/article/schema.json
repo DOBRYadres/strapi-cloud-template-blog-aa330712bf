@@ -29,6 +29,10 @@
       "required": false,
       "allowedTypes": ["images", "files", "videos"]
     },
+    "video": {
+      "type": "string",
+      "required": false
+    },
     "author": {
       "type": "relation",
       "relation": "manyToOne",
